@@ -1,12 +1,10 @@
-  
+## Edited By Jay // Revival Founder
 name: Auto Assign to Project(s)
-
 on:
   issues:
     types: [opened]
 env:
   MY_GITHUB_TOKEN: ${{ secrets.TOKEN }}
-
 jobs:
   assign_one_project:
     runs-on: ubuntu-latest
@@ -28,3 +26,4 @@ jobs:
       with:
         project: 'https://github.com/orgs/REVIVALStudios/projects/1'
         column_name: 'Bug Reports'
+## Edited By Jay // Revival Founder
