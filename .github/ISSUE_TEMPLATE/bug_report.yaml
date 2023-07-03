@@ -1,3 +1,4 @@
+## Edited By Jay // Revival Founder
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
@@ -55,8 +56,4 @@ body:
       placeholder: "13"
     validations:
       required: true
-      
-    
-    
-      
-      
+    ## Edited By Jay // Revival Founder
